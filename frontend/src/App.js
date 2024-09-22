@@ -12,7 +12,7 @@ function App() {
   const handleJsonSubmit = async (data) => {
     try {
       console.log(data);
-      const res = await axios.post('https://bajaj-task-pr2b-jt08pkbk4-basheer2910s-projects.vercel.app/bfhl', data);
+      const res = await axios.post('https://bajaj-task-pr2b.vercel.app/bfhl', data);
       console.log(res?.data);
       setResponse(res?.data);
     } catch (error) {
